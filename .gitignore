@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Evaluation outputs
+evaluation/results/
+results/
+*.log
+
+# Local RAG data
+chroma_db/
+*.sqlite3
+uploads/
+models/
+*.bin
+*.gguf
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
